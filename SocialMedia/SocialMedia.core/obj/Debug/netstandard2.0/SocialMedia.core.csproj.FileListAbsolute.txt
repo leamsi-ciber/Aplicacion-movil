@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\bin\Debug\netstandard2.0\SocialMedia.core.deps.json
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\bin\Debug\netstandard2.0\SocialMedia.core.dll
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\bin\Debug\netstandard2.0\SocialMedia.core.pdb
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.AssemblyInfo.cs
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.dll
+C:\Users\HP\source\repos\RestFulApi-.NetCore\SocialMedia\SocialMedia.core\obj\Debug\netstandard2.0\SocialMedia.core.pdb
