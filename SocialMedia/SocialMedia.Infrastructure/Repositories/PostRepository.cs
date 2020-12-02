@@ -1,4 +1,6 @@
-﻿using SocialMedia.core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using SocialMedia.Api.Data;
+using SocialMedia.core.Entities;
 using SocialMedia.core.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,18 +12,15 @@ namespace SocialMedia.Infrastructure.Repositories
 {
     public class PostRepository:IPostRepository
     {
-        public async Task<IEnumerable<Posts>> GetPosts()
+        private readonly SocialMediaContext _context;
+        public PostRepository(SocialMediaContext context)
         {
-            var posts = Enumerable.Range(1, 10).Select(x => new Posts
-            {
-                PostId = x,
-                Description = $"Description{x}",
-                Date = DateTime.Now,
-                Image = $"https://miapis.com{x}",
-                UserId = x * 2
-
-            });
-            await Task.Delay(10);
+            _context = context;
+        }
+        public async Task<IEnumerable<Publicacion>> GetPosts()
+        {
+            var posts = await _context.Publicacion.ToListAsync();
+            
             return posts;
         }
 
