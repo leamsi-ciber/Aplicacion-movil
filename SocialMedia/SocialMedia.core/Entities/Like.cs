@@ -5,10 +5,13 @@ namespace SocialMedia.core.Entities
 {
     public partial class Like
     {
-        public int IdLike { get; set; }
-        public int IdPublicacion { get; set; }
-        public int IdUsuario { get; set; }
-        public DateTime Fecha { get; set; }
-        public bool Activo { get; set; }
+      
+        public int LikeId { get; set; }
+        public int PostId { get; set; }
+        public int UserId { get; set; }
+        public DateTime Date { get; set; }
+        public bool IsActive { get; set; }
+        public virtual ICollection<Post> Post { get; set; }
+        public virtual ICollection<User> User { get; set; }
     }
 }
