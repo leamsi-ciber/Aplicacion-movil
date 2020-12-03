@@ -8,7 +8,7 @@ namespace SocialMedia.core.Entities
         public User()
         {
             Likes = new HashSet<Like>();
-            Post = new HashSet<Post>();
+            Posts = new HashSet<Post>();
         }
         public int UserId { get; set; }
         public string FirstName { get; set; }
@@ -19,6 +19,6 @@ namespace SocialMedia.core.Entities
         public bool IsActive { get; set; }
 
         public virtual ICollection<Like> Likes { get; set; }
-        public virtual ICollection<Post> Post { get; set; }
+        public virtual ICollection<Post> Posts { get; set; }
     }
 }

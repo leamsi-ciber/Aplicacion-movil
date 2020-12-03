@@ -15,6 +15,6 @@ namespace SocialMedia.core.Entities
         public string Description { get; set; }
         public string Image { get; set; }
         public virtual User User { get; set; }
-        public virtual ICollection<Like> Likes { get; }
+        public virtual ICollection<Like> Likes { get; set; }
     }
 }
